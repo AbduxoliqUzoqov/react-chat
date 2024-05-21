@@ -2,6 +2,9 @@ const router = require("express").Router();
 const jwt= require('jsonwebtoken');
 const User = require("../models/user.js");
 
+router.get("/", async(req,res)=>{
+	res.json({"salom":"efvaebdfb"});
+});
 
 router.post("/", async(req,res)=>{
    const token = req.body.token;
