@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 
+//https://youtu.be/YYmzj5DK_5s?si=NrkcimRzlOLhvjgo
+
 const Register = () => {
   const [err, setErr] = useState(null);
   const [data, setData] = useState({});
